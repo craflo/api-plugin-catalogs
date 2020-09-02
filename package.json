@@ -1,5 +1,5 @@
 {
-  "name": "@reactioncommerce/api-plugin-catalogs",
+  "name": "@craflo/api-plugin-catalogs",
   "description": "Catalogs plugin for the Reaction API",
   "version": "0.0.0-development",
   "main": "index.js",
@@ -7,21 +7,21 @@
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-catalogs",
-  "url": "https://github.com/reactioncommerce/api-plugin-catalogs",
-  "email": "engineering@reactioncommerce.com",
+  "homepage": "https://github.com/craflo/api-plugin-catalogs",
+  "url": "https://github.com/craflo/api-plugin-catalogs",
+  "email": "develop@craflo.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-catalogs.git"
+    "url": "git+https://github.com/craflo/api-plugin-catalogs.git"
   },
   "author": {
-    "name": "Reaction Commerce",
-    "email": "engineering@reactioncommerce.com",
-    "url": "https://reactioncommerce.com"
+    "name": "Craflo",
+    "email": "develop@craflo.com",
+    "url": "https://craflo.com"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-catalogs/issues"
+    "url": "https://github.com/craflo/api-plugin-catalogs/issues"
   },
   "sideEffects": false,
   "dependencies": {
