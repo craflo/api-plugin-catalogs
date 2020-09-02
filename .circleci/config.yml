@@ -70,9 +70,6 @@ workflows:
     jobs:
       - build:
           context: reaction-publish-semantic-release
-      - lint:
-          requires:
-            - build
       - test:
           requires:
             - build
