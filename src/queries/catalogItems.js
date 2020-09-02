@@ -15,9 +15,9 @@ export default async function catalogItems(context, { shopIds, tagIds, catalogBo
   const { collections } = context;
   const { Catalog } = collections;
 
-  if ((!shopIds || shopIds.length === 0) && (!tagIds || tagIds.length === 0)) {
-    throw new ReactionError("invalid-param", "You must provide tagIds or shopIds or both");
-  }
+//   if ((!shopIds || shopIds.length === 0) && (!tagIds || tagIds.length === 0)) {
+//     throw new ReactionError("invalid-param", "You must provide tagIds or shopIds or both");
+//   }
 
   const query = {
     "product.isDeleted": { $ne: true },
