@@ -76,7 +76,6 @@ workflows:
       - deploy:
           context: reaction-publish-semantic-release
           requires:
-            - lint
             - test
           filters:
             branches:
